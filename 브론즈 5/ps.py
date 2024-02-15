@@ -327,3 +327,43 @@
 # N = int(I())
 # result = N * (N+1) // 2
 # print(result)
+
+# #9086번
+# import sys
+# I = sys.stdin.readline
+
+# N = int(I())
+
+# for _ in range(N):
+#     input = I().strip("\n")
+#     print("{}{}".format(input[0],input[-1]))
+    
+# # 9498번
+# import sys
+# I = sys.stdin.readline
+
+# n = int(I())
+# res = -1
+# if(n >= 90 and n <= 100): res='A'
+# elif(n >= 80 and n < 90): res='B'
+# elif(n >= 70 and n < 80): res='C'
+# elif(n >= 60 and n < 70): res='D'
+# else: res='F'
+# print(res)
+
+# #10430번
+# import sys
+# i = sys.stdin.readline
+
+# A,B,C = map(int, i().split())
+# print((A+B) % C)
+# print(((A%C) + (B%C))%C)
+# print((A * B) % C)
+# print(((A % C) * (B % C)) % C)
+
+# #13277번
+# import sys 
+# i = sys.stdin.readline
+
+# A,B = map(int, i().split())
+# print(A * B)
