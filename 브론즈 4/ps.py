@@ -208,14 +208,17 @@
 # result = min(상덕버거, 중덕버거, 하덕버거) + min(콜라,사이다) - 50
 # print(result)
 
-#5554번
-import sys
-I = sys.stdin.readline
-list = []
-for _ in range(4):
-    입력 = int(I())
-    list.append(입력)
-분 = sum(list) // 60
-초 = sum(list) % 60
-print(분)
-print(초)
+# #5554번
+# import sys
+# I = sys.stdin.readline
+# list = []
+# for _ in range(4):b
+#     입력 = int(I())
+#     list.append(입력)
+# 분 = sum(list) // 60
+# 초 = sum(list) % 60
+# print(분)
+# print(초)
+
+지호 = "바보"
+print(지호)
