@@ -220,5 +220,105 @@
 # print(분)
 # print(초)
 
-지호 = "바보"
-print(지호)
+#5575번
+# import sys
+# I = sys.stdin.readline
+
+
+# for _ in range(3):
+#     minus = 0
+#     input = list(map(int, I().split()))
+#     output = [0,0,0]
+#     for i in range(3):
+#         sub = input[5 - i] - input[2 - i] - minus
+#         # print(sub)
+#         if(sub < 0):
+#             if(i != 2):
+#                 output[2-i] = 60 + sub
+#             else :
+#                 output[2-i] = 24 + sub
+#             minus = 1     
+#         else:
+#             output[2 - i] = sub
+#             minus = 0
+#     print(*output)
+
+# #5596번
+# import sys
+# I = sys.stdin.readline
+
+# 민국 = list(map(int, I().split()))
+# 만세 = list(map(int, I().split()))
+
+# 차이 = 0
+# for idx in range(4):
+#     차이 += 민국[idx] - 만세[idx]
+# if(차이 > 0):
+#     print(sum(민국))
+# else:
+#     print(sum(만세))
+
+
+# #5717번
+# import sys
+# I = sys.stdin.readline
+# while(True):
+#     M,F = map(int, I().split())
+#     if(M == 0 and F ==0) :
+#         break
+#     print(M+F)
+
+# #5928번
+# import sys
+# I = sys.stdin.readline
+# D, H, M = map(int, I().split())
+# t1 = D*24*60 + H*60 + M
+# t2 = 11*24*60 + 11*60 + 11
+# t = t1 - t2
+# if t < 0:
+#     print(-1)
+# else:
+#     print(t)
+    
+# #6749번
+# import sys
+# I = sys.stdin.readline
+# N = int(I())
+# M = int(I())
+# print(M + M - N)
+
+# #6763번
+# import sys
+# I = sys.stdin.readline
+# N = int(I())
+# M = int(I())
+# if(M > N):
+#     sub = M - N
+#     fine = None
+#     if(sub >= 1 and sub <= 20):
+#         fine = 100
+#     elif(sub >= 21 and sub <= 30):
+#         fine = 270
+#     elif(sub >= 31):
+#         fine = 500
+#     print("You are speeding and your fine is ${}.".format(fine))
+# else:
+#     print("Congratulations, you are within the speed limit!")
+
+# #6764번
+# import sys
+# I = sys.stdin.readline
+
+# input = [0 for _ in range(4)]
+# for idx in range(4):  
+#     N =   int(I())
+#     input[idx] = N
+    
+# if(input[0] == input[1] and input[1] == input[2] and input[2] == input[3]):
+#     print("Fish At Constant Depth")    
+# elif(input[0] < input[1] and input[1] < input[2] and input[2] < input[3]):
+#     print("Fish Rising")
+# elif(input[0] > input[1] and input[1] > input[2] and input[2] > input[3]):
+#     print("Fish Diving")
+# else:
+#     print("No Fish")
